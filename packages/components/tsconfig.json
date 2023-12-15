@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],   
+    "allowJs": false,          
+    "checkJs": false,         
+    "jsx": "react"
+  },
+  "include": [
+    "*"
+, "../web/src/content", "requirement/requirement.tsx", "requirement/requirements.tsx", "requirement/Checkmark.tsx"  ]
+}
